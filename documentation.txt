@@ -1,0 +1,16 @@
+1) Set up the virtual environment using `python -m venv echelon_env`  
+2) Installed required dependencies: OpenAI, Whisper, PyAudio, etc.  
+3) Created `speech_to_text.py` to transcribe audio files using Whisper.  
+4) Created `record_audio.py` to record audio from the microphone and save it as a WAV file.  
+5) Integrated microphone input and transcription in `real_time_speech_to_text.py`.  
+6) Implemented logging using a custom `logging_module`.  
+7) Tested Whisper model loading and audio transcription.  
+8) Handled errors related to Whisper model and PyAudio installation.  
+9) Added functionality to calculate and log transcription time.  
+10) Used GPT-4-turbo for persuasion analysis in `ai_analysis.py`.  
+11) Integrated feedback generation for persuasion coaching in `ai_coaching.py`.  
+12) Developed a real-time audio input and transcription pipeline for testing.  
+13) Prepared `real_time_speech_to_text.py` to handle both recording and transcription in real-time.  
+14) Implemented simple error handling for transcription and recording errors.  
+15) Tested real-time transcription by recording 5-second audio samples.  
+16) Plan to enhance real-time transcription for continuous feedback.
