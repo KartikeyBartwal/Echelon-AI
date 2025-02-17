@@ -250,3 +250,17 @@ message: "API key not valid. Please pass a valid API key."
 2025-02-17 16:57:32 - Time taken for transcription: 1.50 seconds
 2025-02-17 16:57:32 - Transcription result:
 2025-02-17 16:57:32 -  Did you ever notice this weird thing that happened when Optimus annihilated Grindr? When he jumped, he stabbed Grindr almost directly into his left eyeball with one of the hooks, but he wasn't even close to his right eyeball with the other hook and yet somehow. His right one stopped working while the left one that looked like it was in more danger, continued glowing red even after he was killed.
+2025-02-17 17:07:56 - Analyzing speech: Good morning everyone, and thank you for being her...
+2025-02-17 17:08:01 - Analysis complete.
+2025-02-17 17:08:01 - Good morning everyone, and thank you for being here today. I truly believe that innovation is the key to solving many of the challenges we face in today's world. 
+    We’ve made incredible progress in the last few years, but there's still so much more to be done. As a team, it’s crucial that we remain committed, stay motivated, 
+    and never lose sight of our goals. Together, we can push the boundaries and create something that will truly make a difference. So let's focus on our strengths and work 
+    together to bring about real change. Thank you
+2025-02-17 17:08:01 - {'persuasion_score': 78, 'tone': 'Confident, Motivational', 'improvement': 'Include more specific examples of past successes', 'clarity': 92, 'emotional_appeal': 65, 'confidence_level': 85, 'pacing': 'Optimal', 'word_choice': 'Clear, Concise', 'storytelling': 45, 'engagement': 80, 'vocal_variety': 75, 'power_phrases': 4, 'listening_skills': 0}
+2025-02-17 17:08:56 - Analyzing speech: Good morning everyone, and thank you for being her...
+2025-02-17 17:08:59 - Analysis complete.
+2025-02-17 17:08:59 - Good morning everyone, and thank you for being here today. I truly believe that innovation is the key to solving many of the challenges we face in today's world. 
+    We’ve made incredible progress in the last few years, but there's still so much more to be done. As a team, it’s crucial that we remain committed, stay motivated, 
+    and never lose sight of our goals. Together, we can push the boundaries and create something that will truly make a difference. So let's focus on our strengths and work 
+    together to bring about real change. Thank you
+2025-02-17 17:08:59 - {'persuasion_score': 72, 'tone': 'Motivational, Encouraging', 'improvement': 'Use more specific examples to illustrate the challenges and progress made.', 'clarity': 85, 'word_choice': 'Clear, Concise', 'storytelling': 60, 'engagement': 75, 'power_phrases': 2}

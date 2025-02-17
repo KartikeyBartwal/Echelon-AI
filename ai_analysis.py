@@ -23,7 +23,12 @@ def analyze_speech(text):
         {{
           "persuasion_score": (integer between 1-100),
           "tone": (comma-separated adjectives, e.g., "Confident, Assertive"),
-          "improvement": (concise improvement suggestion, max 15 words)
+          "improvement": (concise improvement suggestion, max 15 words),
+          "clarity": (integer between 1-100),
+          "word_choice": (description of word choice, e.g., "Clear, Concise"),
+          "storytelling": (integer between 1-100),
+          "engagement": (integer between 1-100),
+          "power_phrases": (integer count of powerful phrases),
         }}
 
         Do **not** include extra text or explanations. Just return the JSON object.
@@ -51,7 +56,10 @@ def analyze_speech(text):
         return None
 
 if __name__ == "__main__":
-    test_text = "I strongly believe that innovation drives the world forward."
+    test_text = '''Good morning everyone, and thank you for being here today. I truly believe that innovation is the key to solving many of the challenges we face in today's world. 
+    We’ve made incredible progress in the last few years, but there's still so much more to be done. As a team, it’s crucial that we remain committed, stay motivated, 
+    and never lose sight of our goals. Together, we can push the boundaries and create something that will truly make a difference. So let's focus on our strengths and work 
+    together to bring about real change. Thank you'''
     analysis_result = analyze_speech(test_text)
     
     logger.info(test_text)
