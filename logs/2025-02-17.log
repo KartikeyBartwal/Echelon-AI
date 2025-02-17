@@ -1,0 +1,20 @@
+2025-02-17 10:05:08 - Loading Whisper model...
+2025-02-17 10:05:08 - Whisper model loaded successfully.
+2025-02-17 10:05:08 - Transcribing audio file: audio.mp3
+2025-02-17 10:08:02 - Transcription successful for file: audio.mp3
+2025-02-17 10:08:02 - Transcription result:
+2025-02-17 10:11:03 - Loading Whisper model...
+2025-02-17 10:11:03 - Error loading Whisper model: Weights only load failed. In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+Please file an issue with the following so that we can make `weights_only=True` compatible with your use case: WeightsUnpickler error: Unsupported operand 73
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.
+2025-02-17 10:11:27 - Loading Whisper model...
+2025-02-17 10:11:28 - Whisper model loaded successfully.
+2025-02-17 10:11:28 - Transcribing audio file: Optimus vs Grindor.mp3
+2025-02-17 10:11:31 - Transcription successful for file: Optimus vs Grindor.mp3
+2025-02-17 10:11:31 - Transcription result:
+2025-02-17 10:13:20 - Loading Whisper model...
+2025-02-17 10:13:21 - Whisper model loaded successfully.
+2025-02-17 10:13:21 - Transcribing audio file: Optimus vs Grindor.mp3
+2025-02-17 10:13:23 - Transcription successful for file: Optimus vs Grindor.mp3
+2025-02-17 10:13:23 - Transcription result:
