@@ -36,3 +36,13 @@ Check the documentation of torch.load to learn more about types accepted by defa
 2025-02-17 10:32:24 - Recording complete.
 2025-02-17 10:32:24 - Audio successfully saved to output.wav
 2025-02-17 10:32:24 - Script finished.
+2025-02-17 10:36:41 - Loading Whisper model...
+2025-02-17 10:36:42 - Whisper model loaded successfully.
+2025-02-17 10:36:42 - Real-time speech-to-text started. Speak now...
+2025-02-17 10:36:42 - Starting audio recording for 5 seconds...
+2025-02-17 10:36:42 - Recording started.
+2025-02-17 10:36:47 - Recording complete.
+2025-02-17 10:36:47 - Audio successfully saved to live_audio.wav
+2025-02-17 10:36:47 - Transcribing audio file: live_audio.wav
+2025-02-17 10:36:48 - Transcription successful for file: live_audio.wav
+2025-02-17 10:36:48 - Transcription result:
