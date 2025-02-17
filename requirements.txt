@@ -1,2 +1,6 @@
 openai-whisper
 pyaudio
+google-generativeai
+python-dotenv
+torchaudio
+transformers

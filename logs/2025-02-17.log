@@ -46,3 +46,207 @@ Check the documentation of torch.load to learn more about types accepted by defa
 2025-02-17 10:36:47 - Transcribing audio file: live_audio.wav
 2025-02-17 10:36:48 - Transcription successful for file: live_audio.wav
 2025-02-17 10:36:48 - Transcription result:
+2025-02-17 13:14:53 - Loading Whisper model...
+2025-02-17 13:14:53 - Whisper model loaded successfully.
+2025-02-17 13:14:53 - Transcribing audio file: audio.mp3
+2025-02-17 13:15:22 - Loading Whisper model...
+2025-02-17 13:15:23 - Whisper model loaded successfully.
+2025-02-17 13:15:23 - Transcribing audio file: Optimus vs Grindor.mp3
+2025-02-17 13:15:24 - Transcription successful for file: Optimus vs Grindor.mp3
+2025-02-17 13:15:24 - Time taken for transcription: 1.59 seconds
+2025-02-17 13:15:24 - Transcription result:
+2025-02-17 13:18:35 - Loading Whisper model...
+2025-02-17 13:18:35 - Whisper model loaded successfully.
+2025-02-17 13:18:35 - Transcribing audio file: audio.mp3
+2025-02-17 13:19:04 - Loading Whisper model...
+2025-02-17 13:19:05 - Whisper model loaded successfully.
+2025-02-17 13:19:05 - Transcribing audio file: Optimus vs Grindor.mp3
+2025-02-17 13:19:08 - Transcription successful for file: Optimus vs Grindor.mp3
+2025-02-17 13:19:08 - Time taken for transcription: 2.96 seconds
+2025-02-17 13:19:08 - Transcription result:
+2025-02-17 13:32:18 - Analyzing speech: I strongly believe that innovation drives the worl...
+2025-02-17 13:32:23 - Error analyzing speech: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-02-17 13:32:23 - Speech analysis failed.
+2025-02-17 13:32:54 - Analyzing speech: I strongly believe that innovation drives the worl...
+2025-02-17 13:33:00 - Analysis complete.
+2025-02-17 13:33:54 - Analyzing speech: I strongly believe that innovation drives the worl...
+2025-02-17 13:33:56 - Error analyzing speech: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-02-17 13:33:56 - Speech analysis failed.
+2025-02-17 13:37:12 - Analyzing speech: I strongly believe that innovation drives the worl...
+2025-02-17 13:37:19 - Analysis complete.
+2025-02-17 13:40:56 - Analyzing speech: I strongly believe that innovation drives the worl...
+2025-02-17 13:40:58 - Error analyzing speech: name 'json' is not defined
+2025-02-17 13:41:32 - Analyzing speech: I strongly believe that innovation drives the worl...
+2025-02-17 13:41:36 - Error analyzing speech: name 'json' is not defined
+2025-02-17 13:41:36 - I strongly believe that innovation drives the world forward.
+2025-02-17 13:41:36 - Speech analysis failed.
+2025-02-17 13:41:57 - Analyzing speech: I strongly believe that innovation drives the worl...
+2025-02-17 13:41:58 - Error analyzing speech: 429 Resource has been exhausted (e.g. check quota).
+2025-02-17 13:41:58 - I strongly believe that innovation drives the world forward.
+2025-02-17 13:41:58 - Speech analysis failed.
+2025-02-17 13:42:11 - Analyzing speech: I strongly believe that innovation drives the worl...
+2025-02-17 13:42:12 - Error analyzing speech: 429 Resource has been exhausted (e.g. check quota).
+2025-02-17 13:42:12 - I strongly believe that innovation drives the world forward.
+2025-02-17 13:42:12 - Speech analysis failed.
+2025-02-17 13:46:54 - Analyzing speech: I strongly believe that innovation drives the worl...
+2025-02-17 13:46:58 - Invalid JSON format from Gemini.
+2025-02-17 13:46:58 - I strongly believe that innovation drives the world forward.
+2025-02-17 13:46:58 - Speech analysis failed.
+2025-02-17 13:48:29 - Analyzing speech: I strongly believe that innovation drives the worl...
+2025-02-17 13:48:32 - Analysis complete.
+2025-02-17 13:48:32 - I strongly believe that innovation drives the world forward.
+2025-02-17 13:48:32 - {'persuasion_score': 70, 'tone': 'Confident', 'improvement': 'Provide specific examples to support the claim.'}
+2025-02-17 13:49:05 - Analyzing speech: I strongly believe that innovation drives the worl...
+2025-02-17 13:49:08 - Analysis complete.
+2025-02-17 13:49:08 - I strongly believe that innovation drives the world forward.
+2025-02-17 13:49:08 - {'persuasion_score': 50, 'tone': 'Confident', 'improvement': 'Expand on specific innovative examples.'}
+2025-02-17 14:00:10 - Loading Whisper model...
+2025-02-17 14:00:11 - Whisper model loaded successfully.
+2025-02-17 14:00:11 - Transcribing audio file: Optimus vs Grindor.mp3
+2025-02-17 14:00:13 - Transcription successful for file: Optimus vs Grindor.mp3
+2025-02-17 14:00:13 - Time taken for transcription: 1.83 seconds
+2025-02-17 14:00:13 - Transcription result:
+2025-02-17 14:00:36 - Loading Whisper model...
+2025-02-17 14:00:37 - Whisper model loaded successfully.
+2025-02-17 14:00:37 - Transcribing audio file: Optimus vs Grindor.mp3
+2025-02-17 14:00:39 - Transcription successful for file: Optimus vs Grindor.mp3
+2025-02-17 14:00:39 - Time taken for transcription: 2.05 seconds
+2025-02-17 14:00:39 - Transcription result:
+2025-02-17 14:00:39 -  Did you ever notice this weird thing that happened when Optimus annihilated Grindr? When he jumped, he stabbed Grindr almost directly into his left eyeball with one of the hooks, but he wasn't even close to his right eyeball with the other hook and yet somehow. His right one stopped working while the left one that looked like it was in more danger, continued glowing red even after he was killed.
+2025-02-17 14:04:24 - Loading Whisper model...
+2025-02-17 14:04:25 - Whisper model loaded successfully.
+2025-02-17 14:04:25 - Transcribing audio file: Optimus vs Grindor.mp3
+2025-02-17 14:04:28 - Transcription successful for file: Optimus vs Grindor.mp3
+2025-02-17 14:04:28 - Time taken for transcription: 3.48 seconds
+2025-02-17 14:04:28 - Transcription result:
+2025-02-17 16:16:42 - Loading Whisper model...
+2025-02-17 16:16:42 - Whisper model loaded successfully.
+2025-02-17 16:16:42 - Transcribing audio file: You have a Tom Cruise poster!  Robin edit.mp3
+2025-02-17 16:16:46 - Transcription successful for file: You have a Tom Cruise poster!  Robin edit.mp3
+2025-02-17 16:16:46 - Time taken for transcription: 3.27 seconds
+2025-02-17 16:16:46 - Transcription result:
+2025-02-17 16:16:46 -  Oh my god, you have a Tom Cruise poster! You have a Tom Cruise poster! There's something that's bothering you. I can do mixed college. She's giving you an academic scholar vibe? Yeah. No, but... She well. Oh, please tell me that you're joking.
+2025-02-17 16:20:42 - Loading Whisper model...
+2025-02-17 16:20:42 - Whisper model loaded successfully.
+2025-02-17 16:20:42 - Transcribing audio file: Optimus vs Grindor.mp3
+2025-02-17 16:20:45 - Transcription successful for file: Optimus vs Grindor.mp3
+2025-02-17 16:20:45 - Time taken for transcription: 2.96 seconds
+2025-02-17 16:20:45 - Transcription result:
+2025-02-17 16:21:15 - Loading Whisper model...
+2025-02-17 16:21:16 - Whisper model loaded successfully.
+2025-02-17 16:21:16 - Transcribing audio file: Optimus vs Grindor.mp3
+2025-02-17 16:21:19 - Transcription successful for file: Optimus vs Grindor.mp3
+2025-02-17 16:21:19 - Time taken for transcription: 2.93 seconds
+2025-02-17 16:21:19 - Transcription result:
+2025-02-17 16:21:37 - Loading Whisper model...
+2025-02-17 16:21:38 - Whisper model loaded successfully.
+2025-02-17 16:21:38 - Transcribing audio file: Optimus vs Grindor.mp3
+2025-02-17 16:21:41 - Transcription successful for file: Optimus vs Grindor.mp3
+2025-02-17 16:21:41 - Time taken for transcription: 2.94 seconds
+2025-02-17 16:21:41 - Transcription result:
+2025-02-17 16:21:41 -  Did you ever notice this weird thing that happened when Optimus annihilated Grindr? When he jumped, he stabbed Grindr almost directly into his left eyeball with one of the hooks, but he wasn't even close to his right eyeball with the other hook and yet somehow. His right one stopped working while the left one that looked like it was in more danger, continued glowing red even after he was killed.
+2025-02-17 16:22:29 - Loading Whisper model...
+2025-02-17 16:22:30 - Whisper model loaded successfully.
+2025-02-17 16:22:30 - Transcribing audio file: live_audio.wav
+2025-02-17 16:22:32 - Transcription successful for file: live_audio.wav
+2025-02-17 16:22:32 - Time taken for transcription: 2.27 seconds
+2025-02-17 16:22:32 - Transcription result:
+2025-02-17 16:22:32 -  Okay, this will be the real time text to speech to text.
+2025-02-17 16:22:55 - Loading Whisper model...
+2025-02-17 16:22:56 - Whisper model loaded successfully.
+2025-02-17 16:22:56 - Transcribing audio file: You have a Tom Cruise poster!  Robin edit.mp3
+2025-02-17 16:22:59 - Transcription successful for file: You have a Tom Cruise poster!  Robin edit.mp3
+2025-02-17 16:22:59 - Time taken for transcription: 3.26 seconds
+2025-02-17 16:22:59 - Transcription result:
+2025-02-17 16:22:59 -  Oh my god, you have a Tom Cruise poster! You have a Tom Cruise poster! There's something that's bothering you. I can do mixed college. She's giving you an academic scholar vibe? Yeah. No, but... She well. Oh, please tell me that you're joking.
+2025-02-17 16:23:14 - Loading Whisper model...
+2025-02-17 16:23:14 - Whisper model loaded successfully.
+2025-02-17 16:23:14 - Transcribing audio file: You have a Tom Cruise poster!  Robin edit.mp3
+2025-02-17 16:23:20 - Transcription successful for file: You have a Tom Cruise poster!  Robin edit.mp3
+2025-02-17 16:23:20 - Time taken for transcription: 5.58 seconds
+2025-02-17 16:23:20 - Transcription result:
+2025-02-17 16:23:20 -  Oh my god, you have a Tom Cruise poster! You have a Tom Cruise poster! There's something that's bothering you. I can do mixed college. She's giving you an academic scholar vibe? Yeah. No, but... She well. Oh, please tell me that you're joking.ического mercedes! Sulatzbazaratez laser, to Climb
+2025-02-17 16:30:09 - Loading Whisper model...
+2025-02-17 16:30:10 - Whisper model loaded successfully.
+2025-02-17 16:30:10 - Transcribing audio file: You have a Tom Cruise poster!  Robin edit.mp3
+2025-02-17 16:30:14 - Transcription successful for file: You have a Tom Cruise poster!  Robin edit.mp3
+2025-02-17 16:30:14 - Time taken for transcription: 4.16 seconds
+2025-02-17 16:30:14 - Transcription result:
+2025-02-17 16:30:14 -  Oh my god, you have a Tom Cruise poster! You have a Tom Cruise poster! There's something that's bothering you. I can do mixed college. She's giving you an academic scholar vibe? Yeah. No, but... She well. Oh, please tell me that you're joking. Oh, I'm a little bit of a human being. Oh, I'm a little bit of a human being.
+2025-02-17 16:30:35 - Loading Whisper model...
+2025-02-17 16:30:35 - Whisper model loaded successfully.
+2025-02-17 16:30:35 - Transcribing audio file: You have a Tom Cruise poster!  Robin edit.mp3
+2025-02-17 16:30:39 - Transcription successful for file: You have a Tom Cruise poster!  Robin edit.mp3
+2025-02-17 16:30:39 - Time taken for transcription: 3.32 seconds
+2025-02-17 16:30:39 - Transcription result:
+2025-02-17 16:30:39 -  Oh my god, you have a Tom Cruise poster! You have a Tom Cruise poster! There's something that's bothering you. I can do mixed college. She's giving you an academic scholar vibe? Yeah. No, but... She well. Oh, please tell me that you're joking.
+2025-02-17 16:31:07 - Loading Whisper model...
+2025-02-17 16:31:08 - Whisper model loaded successfully.
+2025-02-17 16:31:08 - Transcribing audio file: You have a Tom Cruise poster!  Robin edit.mp3
+2025-02-17 16:31:12 - Transcription successful for file: You have a Tom Cruise poster!  Robin edit.mp3
+2025-02-17 16:31:12 - Time taken for transcription: 4.13 seconds
+2025-02-17 16:31:12 - Transcription result:
+2025-02-17 16:31:12 -  Oh my god, you have a Tom Cruise poster! You have a Tom Cruise poster! There's something that's bothering you. I can do mixed college. She's giving you an academic scholar vibe? Yeah. No, but... She well. Oh, please tell me that you're joking.
+2025-02-17 16:36:09 - Loading Whisper model...
+2025-02-17 16:36:10 - Whisper model loaded successfully.
+2025-02-17 16:36:10 - Transcribing audio file: You have a Tom Cruise poster!  Robin edit.mp3
+2025-02-17 16:36:13 - Transcription successful for file: You have a Tom Cruise poster!  Robin edit.mp3
+2025-02-17 16:36:13 - Time taken for transcription: 3.24 seconds
+2025-02-17 16:36:13 - Transcription result:
+2025-02-17 16:36:13 -  Oh my god, you have a Tom Cruise poster! You have a Tom Cruise poster! There's something that's bothering you. I can do mixed college. She's giving you an academic scholar vibe? Yeah. No, but... She well. Oh, please tell me that you're joking.
+2025-02-17 16:36:37 - Loading Whisper model...
+2025-02-17 16:36:38 - Whisper model loaded successfully.
+2025-02-17 16:36:38 - Transcribing audio file: You have a Tom Cruise poster!  Robin edit.mp3
+2025-02-17 16:36:41 - Transcription successful for file: You have a Tom Cruise poster!  Robin edit.mp3
+2025-02-17 16:36:41 - Time taken for transcription: 3.25 seconds
+2025-02-17 16:36:41 - Transcription result:
+2025-02-17 16:36:41 -  Oh my god, you have a Tom Cruise poster! You have a Tom Cruise poster! There's something that's bothering you. I can do mixed college. She's giving you an academic scholar vibe? Yeah. No, but... She well. Oh, please tell me that you're joking.
+2025-02-17 16:40:45 - Loading Whisper model...
+2025-02-17 16:40:46 - Whisper model loaded successfully.
+2025-02-17 16:40:46 - Transcribing audio file: You have a Tom Cruise poster!  Robin edit.mp3
+2025-02-17 16:40:46 - Error transcribing file You have a Tom Cruise poster!  Robin edit.mp3: DecodingOptions.__init__() got an unexpected keyword argument 'carry_initial_prompt'
+2025-02-17 16:40:46 - Time taken for transcription: 0.52 seconds
+2025-02-17 16:40:46 - Transcription failed for file: You have a Tom Cruise poster!  Robin edit.mp3
+2025-02-17 16:41:07 - Loading Whisper model...
+2025-02-17 16:41:08 - Whisper model loaded successfully.
+2025-02-17 16:41:08 - Transcribing audio file: You have a Tom Cruise poster!  Robin edit.mp3
+2025-02-17 16:41:08 - Error transcribing file You have a Tom Cruise poster!  Robin edit.mp3: DecodingOptions.__init__() got an unexpected keyword argument 'decode_options'
+2025-02-17 16:41:08 - Time taken for transcription: 0.54 seconds
+2025-02-17 16:41:08 - Transcription failed for file: You have a Tom Cruise poster!  Robin edit.mp3
+2025-02-17 16:41:19 - Loading Whisper model...
+2025-02-17 16:41:20 - Whisper model loaded successfully.
+2025-02-17 16:41:20 - Transcribing audio file: You have a Tom Cruise poster!  Robin edit.mp3
+2025-02-17 16:41:23 - Transcription successful for file: You have a Tom Cruise poster!  Robin edit.mp3
+2025-02-17 16:41:23 - Time taken for transcription: 3.35 seconds
+2025-02-17 16:41:23 - Transcription result:
+2025-02-17 16:41:23 -  Oh my god, you have a Tom Cruise poster! You have a Tom Cruise poster! There's something that's bothering you. I can do mixed college. She's giving you an academic scholar vibe? Yeah. No, but... She well. Oh, please tell me that you're joking.
+2025-02-17 16:41:48 - Loading Whisper model...
+2025-02-17 16:41:49 - Whisper model loaded successfully.
+2025-02-17 16:41:49 - Transcribing audio file: You have a Tom Cruise poster!  Robin edit.mp3
+2025-02-17 16:41:52 - Transcription successful for file: You have a Tom Cruise poster!  Robin edit.mp3
+2025-02-17 16:41:52 - Time taken for transcription: 3.28 seconds
+2025-02-17 16:41:52 - Transcription result:
+2025-02-17 16:41:52 - {'text': " Oh my god, you have a Tom Cruise poster! You have a Tom Cruise poster! There's something that's bothering you. I can do mixed college. She's giving you an academic scholar vibe? Yeah. No, but... She well. Oh, please tell me that you're joking.", 'segments': [{'id': 0, 'seek': 0, 'start': np.float64(0.0), 'end': np.float64(2.36), 'text': ' Oh my god, you have a Tom Cruise poster!', 'tokens': [50364, 876, 452, 3044, 11, 291, 362, 257, 5041, 39165, 17171, 0, 50489], 'temperature': 0.0, 'avg_logprob': -0.5869951851760284, 'compression_ratio': 1.4817073170731707, 'no_speech_prob': 0.03271287679672241, 'words': [{'word': ' Oh', 'start': np.float64(0.0), 'end': np.float64(0.48), 'probability': np.float64(0.5653982758522034)}, {'word': ' my', 'start': np.float64(0.48), 'end': np.float64(0.76), 'probability': np.float64(0.8990377187728882)}, {'word': ' god,', 'start': np.float64(0.76), 'end': np.float64(1.06), 'probability': np.float64(0.7192782163619995)}, {'word': ' you', 'start': np.float64(1.16), 'end': np.float64(1.24), 'probability': np.float64(0.8780739903450012)}, {'word': ' have', 'start': np.float64(1.24), 'end': np.float64(1.32), 'probability': np.float64(0.9722915887832642)}, {'word': ' a', 'start': np.float64(1.32), 'end': np.float64(1.44), 'probability': np.float64(0.9914371371269226)}, {'word': ' Tom', 'start': np.float64(1.44), 'end': np.float64(1.62), 'probability': np.float64(0.5879552364349365)}, {'word': ' Cruise', 'start': np.float64(1.62), 'end': np.float64(1.96), 'probability': np.float64(0.8768575191497803)}, {'word': ' poster!', 'start': np.float64(1.96), 'end': np.float64(2.36), 'probability': np.float64(0.2387607842683792)}]}, {'id': 1, 'seek': 0, 'start': np.float64(2.72), 'end': np.float64(4.16), 'text': ' You have a Tom Cruise poster!', 'tokens': [50489, 509, 362, 257, 5041, 39165, 17171, 0, 50574], 'temperature': 0.0, 'avg_logprob': -0.5869951851760284, 'compression_ratio': 1.4817073170731707, 'no_speech_prob': 0.03271287679672241, 'words': [{'word': ' You', 'start': np.float64(2.72), 'end': np.float64(2.86), 'probability': np.float64(0.9134854078292847)}, {'word': ' have', 'start': np.float64(2.86), 'end': np.float64(3.02), 'probability': np.float64(0.9932328462600708)}, {'word': ' a', 'start': np.float64(3.02), 'end': np.float64(3.18), 'probability': np.float64(0.9855455756187439)}, {'word': ' Tom', 'start': np.float64(3.18), 'end': np.float64(3.36), 'probability': np.float64(0.9936016201972961)}, {'word': ' Cruise', 'start': np.float64(3.36), 'end': np.float64(3.7), 'probability': np.float64(0.995665967464447)}, {'word': ' poster!', 'start': np.float64(3.7), 'end': np.float64(4.16), 'probability': np.float64(0.9914088845252991)}]}, {'id': 2, 'seek': 0, 'start': np.float64(4.74), 'end': np.float64(6.16), 'text': " There's something that's bothering you.", 'tokens': [50574, 821, 311, 746, 300, 311, 31432, 291, 13, 50674], 'temperature': 0.0, 'avg_logprob': -0.5869951851760284, 'compression_ratio': 1.4817073170731707, 'no_speech_prob': 0.03271287679672241, 'words': [{'word': " There's", 'start': np.float64(4.74), 'end': np.float64(5.24), 'probability': np.float64(0.6312430799007416)}, {'word': ' something', 'start': np.float64(5.24), 'end': np.float64(5.4), 'probability': np.float64(0.2057332545518875)}, {'word': " that's", 'start': np.float64(5.4), 'end': np.float64(5.4), 'probability': np.float64(0.29991041496396065)}, {'word': ' bothering', 'start': np.float64(5.4), 'end': np.float64(5.7), 'probability': np.float64(0.11854954808950424)}, {'word': ' you.', 'start': np.float64(5.7), 'end': np.float64(6.16), 'probability': np.float64(0.8039061427116394)}]}, {'id': 3, 'seek': 0, 'start': np.float64(8.98), 'end': np.float64(10.22), 'text': ' I can do mixed college.', 'tokens': [50824, 286, 393, 360, 7467, 3859, 13, 50874], 'temperature': 0.0, 'avg_logprob': -0.5869951851760284, 'compression_ratio': 1.4817073170731707, 'no_speech_prob': 0.03271287679672241, 'words': [{'word': ' I', 'start': np.float64(8.98), 'end': np.float64(9.54), 'probability': np.float64(0.1839231550693512)}, {'word': ' can', 'start': np.float64(9.54), 'end': np.float64(9.68), 'probability': np.float64(0.4973124563694)}, {'word': ' do', 'start': np.float64(9.68), 'end': np.float64(9.78), 'probability': np.float64(0.33456864953041077)}, {'word': ' mixed', 'start': np.float64(9.78), 'end': np.float64(9.98), 'probability': np.float64(0.29319441318511963)}, {'word': ' college.', 'start': np.float64(9.98), 'end': np.float64(10.22), 'probability': np.float64(0.1690080761909485)}]}, {'id': 4, 'seek': 0, 'start': np.float64(10.22), 'end': np.float64(11.96), 'text': " She's giving you an academic scholar vibe?", 'tokens': [50874, 1240, 311, 2902, 291, 364, 7778, 17912, 14606, 30, 50964], 'temperature': 0.0, 'avg_logprob': -0.5869951851760284, 'compression_ratio': 1.4817073170731707, 'no_speech_prob': 0.03271287679672241, 'words': [{'word': " She's", 'start': np.float64(10.22), 'end': np.float64(10.44), 'probability': np.float64(0.9453286826610565)}, {'word': ' giving', 'start': np.float64(10.44), 'end': np.float64(10.62), 'probability': np.float64(0.9088781476020813)}, {'word': ' you', 'start': np.float64(10.62), 'end': np.float64(10.82), 'probability': np.float64(0.9980300068855286)}, {'word': ' an', 'start': np.float64(10.82), 'end': np.float64(10.94), 'probability': np.float64(0.9639198780059814)}, {'word': ' academic', 'start': np.float64(10.94), 'end': np.float64(11.22), 'probability': np.float64(0.9153015613555908)}, {'word': ' scholar', 'start': np.float64(11.22), 'end': np.float64(11.58), 'probability': np.float64(0.7961673140525818)}, {'word': ' vibe?', 'start': np.float64(11.58), 'end': np.float64(11.96), 'probability': np.float64(0.8970574140548706)}]}, {'id': 5, 'seek': 0, 'start': np.float64(12.26), 'end': np.float64(12.34), 'text': ' Yeah.', 'tokens': [50964, 865, 13, 51014], 'temperature': 0.0, 'avg_logprob': -0.5869951851760284, 'compression_ratio': 1.4817073170731707, 'no_speech_prob': 0.03271287679672241, 'words': [{'word': ' Yeah.', 'start': np.float64(12.26), 'end': np.float64(12.34), 'probability': np.float64(0.8848982453346252)}]}, {'id': 6, 'seek': 0, 'start': np.float64(14.86), 'end': np.float64(15.98), 'text': ' No, but...', 'tokens': [51014, 883, 11, 457, 485, 51114], 'temperature': 0.0, 'avg_logprob': -0.5869951851760284, 'compression_ratio': 1.4817073170731707, 'no_speech_prob': 0.03271287679672241, 'words': [{'word': ' No,', 'start': np.float64(14.86), 'end': np.float64(15.42), 'probability': np.float64(0.928295373916626)}, {'word': ' but...', 'start': np.float64(15.42), 'end': np.float64(15.98), 'probability': np.float64(0.8240495026111603)}]}, {'id': 7, 'seek': 0, 'start': np.float64(15.98), 'end': np.float64(16.72), 'text': ' She well.', 'tokens': [51164, 1240, 731, 13, 51214], 'temperature': 0.0, 'avg_logprob': -0.5869951851760284, 'compression_ratio': 1.4817073170731707, 'no_speech_prob': 0.03271287679672241, 'words': [{'word': ' She', 'start': np.float64(15.98), 'end': np.float64(16.28), 'probability': np.float64(0.8472656011581421)}, {'word': ' well.', 'start': np.float64(16.28), 'end': np.float64(16.72), 'probability': np.float64(0.5546259880065918)}]}, {'id': 8, 'seek': 0, 'start': np.float64(18.72), 'end': np.float64(20.3), 'text': " Oh, please tell me that you're joking.", 'tokens': [51314, 876, 11, 1767, 980, 385, 300, 291, 434, 17396, 13, 51389], 'temperature': 0.0, 'avg_logprob': -0.5869951851760284, 'compression_ratio': 1.4817073170731707, 'no_speech_prob': 0.03271287679672241, 'words': [{'word': ' Oh,', 'start': np.float64(18.72), 'end': np.float64(19.28), 'probability': np.float64(0.8852507472038269)}, {'word': ' please', 'start': np.float64(19.28), 'end': np.float64(19.48), 'probability': np.float64(0.9940749406814575)}, {'word': ' tell', 'start': np.float64(19.48), 'end': np.float64(19.66), 'probability': np.float64(0.9843324422836304)}, {'word': ' me', 'start': np.float64(19.66), 'end': np.float64(19.8), 'probability': np.float64(0.9989492297172546)}, {'word': ' that', 'start': np.float64(19.8), 'end': np.float64(19.96), 'probability': np.float64(0.9135106801986694)}, {'word': " you're", 'start': np.float64(19.96), 'end': np.float64(20.08), 'probability': np.float64(0.9638001024723053)}, {'word': ' joking.', 'start': np.float64(20.08), 'end': np.float64(20.3), 'probability': np.float64(0.8277947306632996)}]}], 'language': 'en'}
+2025-02-17 16:57:30 - Loading Whisper model...
+2025-02-17 16:57:31 - Whisper model loaded successfully.
+2025-02-17 16:57:31 - Transcribing audio file: Optimus vs Grindor.mp3
+2025-02-17 16:57:32 - Transcription successful for file: Optimus vs Grindor.mp3
+2025-02-17 16:57:32 - Time taken for transcription: 1.50 seconds
+2025-02-17 16:57:32 - Transcription result:
+2025-02-17 16:57:32 -  Did you ever notice this weird thing that happened when Optimus annihilated Grindr? When he jumped, he stabbed Grindr almost directly into his left eyeball with one of the hooks, but he wasn't even close to his right eyeball with the other hook and yet somehow. His right one stopped working while the left one that looked like it was in more danger, continued glowing red even after he was killed.

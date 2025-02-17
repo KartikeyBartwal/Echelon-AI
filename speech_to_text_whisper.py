@@ -28,7 +28,7 @@ def transcribe_audio(file_path):
 import time
 
 if __name__ == "__main__":
-    file_path = "audio.mp3"
+    file_path = "Optimus vs Grindor.mp3"
 
     # Start the timer
     start_time = time.time()
@@ -45,6 +45,6 @@ if __name__ == "__main__":
     if transcription:
         logger.info("Transcription result:")
         print(transcription)
-        logging.info(transcription)
+        logger.info(transcription)
     else:
         logger.error(f"Transcription failed for file: {file_path}")
