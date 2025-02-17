@@ -18,3 +18,21 @@ Check the documentation of torch.load to learn more about types accepted by defa
 2025-02-17 10:13:21 - Transcribing audio file: Optimus vs Grindor.mp3
 2025-02-17 10:13:23 - Transcription successful for file: Optimus vs Grindor.mp3
 2025-02-17 10:13:23 - Transcription result:
+2025-02-17 10:26:06 - Loading Whisper model...
+2025-02-17 10:26:06 - Whisper model loaded successfully.
+2025-02-17 10:26:06 - Transcribing audio file: Optimus vs Grindor.mp3
+2025-02-17 10:26:08 - Transcription successful for file: Optimus vs Grindor.mp3
+2025-02-17 10:26:08 - Time taken for transcription: 1.53 seconds
+2025-02-17 10:26:08 - Transcription result:
+2025-02-17 10:26:29 - Loading Whisper model...
+2025-02-17 10:26:30 - Whisper model loaded successfully.
+2025-02-17 10:26:30 - Transcribing audio file: audio.mp3
+2025-02-17 10:27:55 - Transcription successful for file: audio.mp3
+2025-02-17 10:27:55 - Time taken for transcription: 85.45 seconds
+2025-02-17 10:27:55 - Transcription result:
+2025-02-17 10:32:19 - Script started, recording audio to output.wav...
+2025-02-17 10:32:19 - Starting audio recording for 5 seconds...
+2025-02-17 10:32:19 - Recording started.
+2025-02-17 10:32:24 - Recording complete.
+2025-02-17 10:32:24 - Audio successfully saved to output.wav
+2025-02-17 10:32:24 - Script finished.

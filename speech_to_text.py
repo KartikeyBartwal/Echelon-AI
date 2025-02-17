@@ -28,7 +28,7 @@ def transcribe_audio(file_path):
 import time
 
 if __name__ == "__main__":
-    file_path = "Optimus vs Grindor.mp3"
+    file_path = "audio.mp3"
 
     # Start the timer
     start_time = time.time()
