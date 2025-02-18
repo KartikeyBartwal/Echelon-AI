@@ -4,3 +4,6 @@ google-generativeai
 python-dotenv
 torchaudio
 transformers
+gradio 
+opencv-python
+opencv-python-headless
