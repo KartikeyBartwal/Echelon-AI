@@ -5,5 +5,16 @@ python-dotenv
 torchaudio
 transformers
 gradio 
-opencv-python
 opencv-python-headless
+opencv-python
+twilio
+gradio>=5.0
+gradio-webrtc
+onnxruntime-gpu
+inference
+inference[transformers]
+inference[yolo-world]
+inference[clip]
+inference[sam]
+ultralytics
+mediapipe
