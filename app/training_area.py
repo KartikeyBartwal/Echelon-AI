@@ -54,7 +54,7 @@ css = """
     left: 10px !important;
     width: 100% !important;
     max-width: 360px !important;
-}
+}f
 
 .my-video video {
     width: 100% !important;
