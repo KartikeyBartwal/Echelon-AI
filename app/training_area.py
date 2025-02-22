@@ -1,7 +1,7 @@
 import sys
 import os
 sys.path.append(os.path.join(os.path.dirname(__file__), 'utils'))
-from logging_module import setup_logger  # Import the logging module
+from logging_module import setup_logger  
 import gradio as gr
 from gradio_webrtc import WebRTC
 import cv2
@@ -27,11 +27,8 @@ def detection(image, conf_threshold=0.3):
 
     # Draw hand landmarks and contours
     if results.multi_hand_landmarks:
-        logger.info(f"Detected {len(results.multi_hand_landmarks)} hand(s)")
         for landmarks in results.multi_hand_landmarks:
             mp.solutions.drawing_utils.draw_landmarks(image, landmarks, mp_hands.HAND_CONNECTIONS)
-    else:
-        logger.info("No hands detected")
     
     # Convert image to grayscale and detect contours
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
@@ -50,10 +47,30 @@ rtc_configuration = {
 }
 
 # Custom CSS for styling the interface
-css = """.my-group {max-width: 600px !important; max-height: 600px !important;}
-         .my-column {display: flex !important; justify-content: center !important; align-items: center !important;}"""
+css = """
+.my-group {
+    position: absolute !important;
+    top: 10px !important;
+    left: 10px !important;
+    width: 100% !important;
+    max-width: 360px !important;
+}
 
-# Gradio Blocks interface
+.my-video video {
+    width: 100% !important;
+    max-width: 360px !important;
+    height: auto !important;
+    border-radius: 10px !important;
+    border: 2px solid #4CAF50 !important;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Remove scrollbar from all sliders */
+.gr-slider {
+    overflow: hidden !important;
+}
+"""
+
 with gr.Blocks(css=css) as training_area:
     gr.HTML(
         """
@@ -64,24 +81,23 @@ with gr.Blocks(css=css) as training_area:
     )
     with gr.Column(elem_classes=["my-column"]):
         with gr.Group(elem_classes=["my-group"]):
-            # WebRTC component to stream video
-            image = WebRTC(label="Stream", rtc_configuration=rtc_configuration)
+            # WebRTC component with increased height
+            image = WebRTC(label="Stream", rtc_configuration=rtc_configuration, height=300, width=400, elem_classes=["my-video"])
             
-            # Confidence threshold slider for object detection
+            # Confidence threshold slider (now without scrollbar)
             conf_threshold = gr.Slider(
                 label="Confidence Threshold",
                 minimum=0.0,
                 maximum=1.0,
                 step=0.05,
                 value=0.30,
+                interactive=True,
+                visible = False,
+                container=True
             )
 
         # Stream function for hand movement detection
-        image.stream(
-            fn=detection, inputs=[image, conf_threshold], outputs=[image], time_limit=300
-        )
-
-# No need to define a function `training_area()`, the `gr.Blocks` instance is already available.
+        image.stream(fn=detection, inputs=[image, conf_threshold], outputs=[image])
 
 # Launch only if running independently
 if __name__ == "__main__":
