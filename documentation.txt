@@ -23,3 +23,26 @@
 23) Added detailed logging of transcription results and analysis scores.
 24) Implemented proper exception handling for model loading and API calls.
 25) Tested with multiple audio formats including live microphone input.
+26) 
+### 🚀 Echelon AI: Your Personal Persuasion & Communication Coach ###
+
+## 🗣️ Speech & Language Mastery (Raw Transcription)
+1️⃣ Persuasion Power Score – A dynamic score that reflects the strength and impact of your arguments  
+2️⃣ Logical Flow & Clarity Boost – Ensures your speech is structured, compelling, and easy to follow  
+3️⃣ Emotional Impact Analysis – Measures how well you convey emotions to connect with your audience  
+4️⃣ Confidence in Speech (Filler Word Reduction) – Reduces "um," "uh," and hesitations to sound more authoritative  
+5️⃣ Power Word & Influence Index – Analyzes if you’re using persuasive words that captivate and convince  
+6️⃣ Speech Pacing & Rhythm Coach – Maintains the perfect tempo for engaging delivery  
+7️⃣ Dominance & Charisma Detector – Provides real-time feedback on how commanding and confident you sound  
+
+## 🎭 Body Language & Non-Verbal Influence (Camera Analysis)
+8️⃣ Expressive Face Score – Aligns your facial expressions with your words for authenticity and impact  
+9️⃣ Eye Contact & Engagement Meter – Maximizes audience connection with strong, confident eye contact  
+🔟 Gestural Effectiveness Guide – Helps you use your hands with purpose to reinforce your message  
+1️⃣1️⃣ Posture & Presence Enhancer – Cultivates a powerful stance that radiates confidence and leadership  
+
+### 🎯 Your Personalized Growth Plan 🎯
+🔹 Get instant feedback after every session  
+🔹 Track your progress over time with insightful analytics  
+🔹 Unlock expert tips tailored to your unique communication style  
+🔹 Train like a pro and elevate your persuasion game to the next level  

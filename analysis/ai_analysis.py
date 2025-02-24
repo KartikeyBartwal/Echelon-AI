@@ -16,25 +16,28 @@ def analyze_speech(text):
     logger.info(f"Analyzing speech: {text[:50]}...")  # Preview first 50 characters
 
     try:
-        prompt = f"""
-        Analyze the following speech and provide a structured response in strict JSON format. 
-        Ensure the output **ONLY** follows this exact format:
+    prompt = f"""
+prompt = f"""
+Analyze the following speech and provide a structured response in strict JSON format.  
+Ensure the output ONLY follows this exact format:
 
-        {{
-          "persuasion_score": (integer between 1-100),
-          "tone": (comma-separated adjectives, e.g., "Confident, Assertive"),
-          "improvement": (concise improvement suggestion, max 15 words),
-          "clarity": (integer between 1-100),
-          "word_choice": (description of word choice, e.g., "Clear, Concise"),
-          "storytelling": (integer between 1-100),
-          "engagement": (integer between 1-100),
-          "power_phrases": (integer count of powerful phrases),
-        }}
+{{
+  "persuasion_power_score": (integer between 1-100),  # Overall effectiveness in influencing and persuading the audience
+  "logical_flow_clarity": (integer between 1-100),  # How well-structured and coherent the speech is
+  "emotional_impact": (integer between 1-100),  # The strength of emotional appeal and connection with the audience
+  "confidence_speech": (integer between 1-100),  # The level of assertiveness and self-assurance in delivery
+  "power_word_influence_index": (integer between 1-100),  # Use of impactful and strong words that drive persuasion
+  "speech_pacing_rhythm": (integer between 1-100),  # Balance between speed, pauses, and natural rhythm of speech
+  "dominance_charisma": (integer between 1-100),  # Overall commanding presence and ability to captivate listeners
+  "improvement": (concise improvement suggestion, max 15 words)  # Short, actionable advice for enhancement
+}}
 
-        Do **not** include extra text or explanations. Just return the JSON object.
+Do not include extra text or explanations. Just return the JSON object.
 
-        Speech: "{text}"
-        """
+Speech: "{text}"
+"""
+"{text}"
+"""
 
         response = genai.GenerativeModel("gemini-pro").generate_content(prompt)
 
