@@ -18,3 +18,9 @@ inference[clip]
 inference[sam]
 ultralytics
 mediapipe
+opencv-python
+onnxruntime
+numpy
+torchvision 
+torchaudio 
+deepface

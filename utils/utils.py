@@ -1,6 +1,6 @@
 import asyncio 
-from local_models import generate_response 
-from logging_module import setup_logger
+from .local_models import generate_response_tinyllama   
+from .logging_module import setup_logger
 
 logger = setup_logger()
 
@@ -31,5 +31,5 @@ async def generate_scenario():
 
     # Generate the model's response when passed this instruction prompt and return that response
 
-    response = await generate_response(INSTRUCTION_PROMPT)
+    response = await generate_response_tinyllama(INSTRUCTION_PROMPT)
     return response 
