@@ -24,3 +24,11 @@ numpy
 torchvision 
 torchaudio 
 deepface
+librosa
+numpy
+opencv-contrib-python
+opencv-python
+torch
+torchvision
+tqdm
+numba

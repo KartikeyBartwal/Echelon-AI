@@ -7,14 +7,17 @@ import numpy as np
 mp_face_mesh = mp.solutions.face_mesh
 face_mesh = mp_face_mesh.FaceMesh(refine_landmarks=True)
 
-# Blinking detection parameters
+# Eye tracking landmarks
 LEFT_EYE_LANDMARKS = [33, 160, 158, 133, 153, 144]
 RIGHT_EYE_LANDMARKS = [362, 385, 387, 263, 373, 380]
 BLINK_THRESHOLD = 0.20
 
-# Initialize variables for blink detection
+# Variables for blink detection & eye contact
 blink_count = 0
 last_blink_time = time.time()
+eye_contact_frames = 0
+total_frames = 0
+start_time = time.time()
 
 # Capture video
 cap = cv2.VideoCapture(0)
@@ -61,9 +64,23 @@ while cap.isOpened():
             elif nose_x > 0.55:
                 gaze_direction = "Left"
 
+            # Track eye contact
+            total_frames += 1
+            if gaze_direction == "Center":
+                eye_contact_frames += 1
+
+            # Compute eye contact score every 5 seconds
+            elapsed_time = time.time() - start_time
+            if elapsed_time > 5:  
+                eye_contact_score = (eye_contact_frames / total_frames) * 100
+                print(f"Eye Contact Score: {eye_contact_score:.2f}%")
+                eye_contact_frames = 0  # Reset counters
+                total_frames = 0
+                start_time = time.time()
+
             print(f"Gaze Direction: {gaze_direction}, Blinking Count: {blink_count}")
 
-    cv2.imshow("Eye Movement Tracking", frame)
+    cv2.imshow("Eye Contact Analysis", frame)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
